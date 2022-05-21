@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #f2f5f7;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: justify;
+  padding: 20px 0;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="grid-container">
+  <div class="item1">
+      <div>
+          <a href="Index.html">Inicio</a>
+      </div>
+  </div>
+  <div class="item2"style="width: 400 px;">
+    <h4>Temas</h4>
+    <ul>
+        <li> <a href="EducacionTradicional.html">Educacion Tradicional</a></li>
+        <li> <a href="EducacionVirtual.html">Educacion Virtual</a></li>
+    </ul>
+
+
+    <H4>Autor</H4> <ul>
+        <li><a href="Autor.html">Angie Avila</a></li>
+    </ul>
+</div>
+  <div class="item3" style="width: 1200 px;">
+      <h3>Autor del Sitio:</h3>
+
+      <b>Nombre:Angie Gabriela Avila Garcia</b> <br>
+    Codigo: 1070593345 <br>
+    Programa: Ingenieria de Sistemas <br>
+    Correo:agavilag@unad.edu.co <br>
+    Skype:angiegabriela14 <br>
+    Fecha:21/06/2022</div>
+      
+  
+</div>
+
+</body>
+</html>
