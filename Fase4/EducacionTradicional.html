@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #f2f5f7;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: justify;
+  padding: 20px 0;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="grid-container">
+  <div class="item1">
+      <div>
+          <a href="Index.html">Inicio</a>
+      </div>
+  </div>
+  <nav class="item2"style="width: 400 px;">
+    <h4>Temas</h4>
+    <ul>
+        <li> <a href="EducacionTradicional.html">Educacion Tradicional</a></li>
+        <li> <a href="EducacionVirtual.html">Educacion Virtual</a></li>
+    </ul>
+    <H4>Autor</H4> <ul>
+        <li><a href="Autor.html">Angie Avila</a></li>
+    </ul>
+
+  </nav>
+  <section class="item3" style="width: 1200 px;">
+      <h3>Educación Tradicional</h3>
+      <p>(Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura [UNESCO], 2018) <q>La educación tradicional, también llamada modelo educativo tradicional o enseñanza tradicional, 
+          es un modelo de formación que se caracteriza por tener como principal proveedor de información 
+          y conocimiento al profesor, quien es el eje de la formación y poseedor de la verdad y el saber, 
+          en el cual no hay espacio para la construcción de conocimiento, el debate frente a las ideas 
+          absolutas y la descentralización. <br>
+
+        <br> Así pues, la educación tradicional es concebida como la transmisión de conocimientos adquiridos 
+        a lo largo del tiempo por maestros y pensadores, los cuales no se pueden discutir o cambiar. 
+        Este modelo educativo se viene aplicando desde el siglo XVIII, momento en que surge la escuela 
+        como institución y en que los grandes pensadores eran quienes transmitían la información y no se 
+        reflexionaba sobre esta, a tal punto que quienes lo hacían corrían el riesgo de ser condenados a 
+        muerte.</q></p>
+        <center>Figura 1 <br><img src="Imagenes/educacion-tradicional.jpg" width="500 px"> <br>
+        <i>Nota. Educación Tradicional [Fotografía], por Secretaria de Educacion, 2011 </i>
+        </center><br> 
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/oLr6a1OhASc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      
+
+  </section>
+  <aside class="item4">
+    <div>
+      <h4>#ViernesItinerante</h4>
+      <a href="https://www.facebook.com/UniversidadUNAD/photos/a.836434463078574/4999775670077745/">ir a
+        evento</a><br>
+      <p>27/05/2022</p>
+    </div>
+
+    <div>
+      <h4>#UNADOferta</h4>
+      <a href="https://www.facebook.com/UniversidadUNAD/photos/a.485614301493927/4994086370646675/">ir a
+        evento</a><br>
+      <p>25/05/2022</p>
+    </div>
+    <div>
+      <h4>#MiércolesDeInnovación</h4>
+      <a href="https://www.facebook.com/UniversidadUNAD/photos/a.485614301493927/4993495980705714/">ir a
+        evento</a><br>
+      <p>25/05/2022</p>
+    </div>
+  </aside>  
+  <footer class="item5">
+    <b>Nombre:Angie Gabriela Avila Garcia</b> <br>
+    Codigo: 1070593345 <br>
+    Programa: Ingenieria de Sistemas <br>
+    Correo:agavilag@unad.edu.co <br>
+    Skype:angiegabriela14 <br>
+    Fecha:21/06/2022</div>
+  </footer>
+
+</body>
+</html>
